@@ -1,5 +1,7 @@
 #awesome-vcs
 
+![version-control-everything](http://i.imgur.com/P0aDBIT.jpg)
+
 A curated list of awesome version control libraries. 
 
 I like to keep everything under version control. This is a list of utilities that allow you to do that.
@@ -61,6 +63,12 @@ I like to keep everything under version control. This is a list of utilities tha
 - [bup](https://github.com/bup/bup) - Very efficient backup system based on the git packfile format, providing fast incremental saves and global deduplication (among and within files, including virtual machine images)
 
 **Note**: \* denotes that the linked item is not a library or tool, but an article or blog post.
+
+## Writing
+
+- [Draft](https://draftin.com/) - Easy version control and collaboration for writers.
+- [Penflip](https://www.penflip.com/) - GitHub for *collaborative* writers.
+- [GitBook](https://www.gitbook.com/) - Book publishing platform based on git and markdown.
 
 ## License
 
