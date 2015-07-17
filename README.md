@@ -60,7 +60,7 @@ I like to keep everything under version control. This is a list of utilities tha
 
 - [bup](https://github.com/bup/bup) - Very efficient backup system based on the git packfile format, providing fast incremental saves and global deduplication (among and within files, including virtual machine images)
 
-**Note*: \* denotes that the linked item is not a library or tool, but an article or blog post.
+**Note**: \* denotes that the linked item is not a library or tool, but an article or blog post.
 
 ## License
 
