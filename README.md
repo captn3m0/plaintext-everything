@@ -2,7 +2,7 @@
 
 ![version-control-everything](http://i.imgur.com/P0aDBIT.jpg)
 
-A curated list of awesome version control libraries. 
+A curated list of awesome version control libraries.
 
 I like to keep everything under version control. This is a list of utilities that allow you to do that.
 
@@ -53,11 +53,11 @@ I like to keep everything under version control. This is a list of utilities tha
 
 - [lilypond](http://www.lilypond.org/features.html) - version control for sheet music. Think Latex for sheet music
 - [tunemachine](https://github.com/jez/tunemachine) - Version control for spotify playlists.
- 
+
 ## Database
 
 - *Jeff Atwood's [blog post](http://blog.codinghorror.com/get-your-database-under-version-control/)
- 
+
 ## Backups
 
 - [bup](https://github.com/bup/bup) - Very efficient backup system based on the git packfile format, providing fast incremental saves and global deduplication (among and within files, including virtual machine images)
