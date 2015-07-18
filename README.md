@@ -6,6 +6,8 @@ A curated list of awesome version control libraries.
 
 I like to keep everything under version control. This is a list of utilities that allow you to do that.
 
+**Note**: \* denotes that the linked item is not a library or tool, but an article or blog post.
+
 ## DNS
 
  - [clouddns](https://github.com/jhawthorn/clouddns) (Cloudfront)
@@ -67,8 +69,6 @@ I like to keep everything under version control. This is a list of utilities tha
 - [Draft](https://draftin.com/) - Easy version control and collaboration for writers.
 - [Penflip](https://www.penflip.com/) - GitHub for *collaborative* writers.
 - [GitBook](https://www.gitbook.com/) - Book publishing platform based on git and markdown.
-
-**Note**: \* denotes that the linked item is not a library or tool, but an article or blog post.
 
 ## License
 
