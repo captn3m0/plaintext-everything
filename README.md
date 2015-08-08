@@ -70,6 +70,23 @@ I like to keep everything under version control. This is a list of utilities tha
 - [Penflip](https://www.penflip.com/) - GitHub for *collaborative* writers.
 - [GitBook](https://www.gitbook.com/) - Book publishing platform based on git and markdown.
 
+## Todo
+
+- [todo.txt](http://todotxt.com/) - Pretty well known text file format with applications on many platforms.
+- *[Todo list in version control](http://urasaru.org/post/19414431348/getting-my-todo-list-under-version-control) - Based on using notational velocity and tracking it in git.
+
+## Food
+
+- [Fork the Cookbook](http://forkthecookbook.com/) - GitHub for recipes
+- [diy.soylent](https://diy.soylent.com/) - Soylent recipes can be tracked and include changelogs. They can also be forked.
+
+
+## Diagrams & Flowcharts
+
+- [Web Sequence Diagrams](https://www.websequencediagrams.com/) - Generates imagess from your plain text descriptions. Has [an API](http://www.websequencediagrams.com/embedding.html) for plugin support, so you can embed easily.
+- [Kanga Modelling](https://kangamodeling.codeplex.com/) - UML diagram generator in plain text. Written in .NET
+- [yuml.me](http://yuml.me/) - Class UML diagrams, described in plain text, and easily embeddable.
+
 ## License
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
