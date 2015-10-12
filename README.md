@@ -1,4 +1,4 @@
-#awesome-vcs
+# awesome-vcs [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 ![version-control-everything](http://i.imgur.com/P0aDBIT.jpg)
 
@@ -30,9 +30,10 @@ I like to keep everything under version control. This is a list of utilities tha
 - *[Arch Wiki Guide](https://wiki.archlinux.org/index.php/Dotfiles#Version_control) on using version control for dotfiles
 - [gnu stow](http://www.gnu.org/software/stow/)
 
-## Vim
+## Editors
 
 - *[http://www.terminally-incoherent.com/blog/2012/03/12/putting-your-vim-files-under-version-control/](putting-your-vim-files-under-version-control)
+- [Editorconfig](http://editorconfig.org/) - Keep your coding styles in a .editorconfig file.
 
 ## Media
 
