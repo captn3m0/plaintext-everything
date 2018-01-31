@@ -4,18 +4,55 @@
 
 A curated list of awesome version control libraries.
 
-I like to keep everything under version control. This is a list of utilities that allow you to do that.
+I like to keep everything under version control. This is a list of utilities that allow you to do that. Tools that help you keep data in plain-text (and version control yourselves) are permitted.
 
 **Note**: \* denotes that the linked item is not a library or tool, but an article or blog post.
 
 ## DNS
 
  - [clouddns](https://github.com/jhawthorn/clouddns) (Cloudfront)
- - [namesync](https://github.com/dnerdy/namesync) (cloudflare)
+ - [namesync](https://github.com/dnerdy/namesync) (Cloudflare)
+ - [Terraform](https://www.terraform.io/docs/providers/) has providers for CloudFlare, UltraDNS, and PowerDNS
 
 ## Configuration
 
 - [etckeeper](https://github.com/joeyh/etckeeper)
+
+## Terraform
+
+Terraform lets you manage a lot of things in version control, including:
+
+- Database Provisioning for [MySQL](https://www.terraform.io/docs/providers/mysql/index.html), [CouchDB](https://github.com/nicolai86/terraform-provider-couchdb), [InfluxDB](https://www.terraform.io/docs/providers/influxdb/index.html), and [PostgreSQL](https://www.terraform.io/docs/providers/postgresql/index.html).
+- DNS Setup for [PowerDNS](https://www.terraform.io/docs/providers/powerdns/index.html), [UltraDNS](https://www.terraform.io/docs/providers/ultradns/index.html), DNSimple, DNSMadeEasy, and DNS updates over RFC 2136.
+- Cloud Providers:
+    + AliCloud
+    + AWS
+    + Azure
+    + Google Cloud
+    + Oracle Public Cloud
+    + VMWare VSphere
+    + DigitalOcean
+    + Heroku
+    + OpenStack
+    + OVH
+    + Scaleway
+    + 1&1
+    + and many more... See https://www.terraform.io/docs/providers/type/cloud-index.html
+- InfraStructure
+    + Chef
+    + Consul
+    + Docker
+    + Kubernetes
+    + Nomad
+    + RabbitMQ
+    + Rancher
+    + Vault
++ Version Control
+    * BitBucket
+    * GitHub
+    * GitLab
+
+And a lot more. A full list of providers is at <https://www.terraform.io/docs/providers/index.html>, and you can find community providers at <https://www.terraform.io/docs/providers/type/community-index.html>
 
 ## Passwords
 
@@ -80,7 +117,6 @@ I like to keep everything under version control. This is a list of utilities tha
 
 - [Fork the Cookbook](http://forkthecookbook.com/) - GitHub for recipes
 - [diy.soylent](https://diy.soylent.com/) - Soylent recipes can be tracked and include changelogs. They can also be forked.
-
 
 ## Diagrams & Flowcharts
 
