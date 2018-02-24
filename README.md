@@ -88,6 +88,7 @@ And a lot more. A full list of providers is at <https://www.terraform.io/docs/pr
 
 - [pixelapse](https://www.pixelapse.com/) - Visual version control and collaboration workflow
 - *[Adobe Version Cue](http://sixrevisions.com/project-management/the-ultimate-guide-to-version-control-for-designers/) - Blog post explaining version control to designers
+- [kactus.io](https://kactus.io/) - Version control for designers (Sketch+Git for now)
 
 ## Music
 
