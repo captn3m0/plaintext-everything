@@ -60,7 +60,7 @@ And a lot more. A full list of providers is at <https://www.terraform.io/docs/pr
 - *John Resig's [blog post](http://ejohn.org/blog/keeping-passwords-in-source-control/)
 - [pass](http://www.passwordstore.org/) - Standard unix password manager (encrypt, then commit).
 - [ansible-vault](https://docs.ansible.com/playbooks_vault.html) - Encrypted storage for ansible.
-
+- [sops](https://github.com/mozilla/sops) - Encrypts files for git.
 ## Dotfiles
 
 - *[dotfiles.github.io](https://dotfiles.github.io/) - List of various dotfile resources, curated by github
