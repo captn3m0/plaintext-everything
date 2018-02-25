@@ -99,6 +99,12 @@ And a lot more. A full list of providers is at <https://www.terraform.io/docs/pr
 
 - *Jeff Atwood's [blog post](http://blog.codinghorror.com/get-your-database-under-version-control/)
 
+### Database Schema
+
+- [flyway](https://flywaydb.org/) - Version control for your database.
+- [MyBatis](http://www.mybatis.org/migrations/)
+- [Liquibase](https://www.liquibase.org/) - Source Control for your database
+
 ## Backups
 
 - [bup](https://github.com/bup/bup) - Very efficient backup system based on the git packfile format, providing fast incremental saves and global deduplication (among and within files, including virtual machine images)
