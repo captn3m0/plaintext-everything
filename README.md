@@ -17,6 +17,7 @@ I like to keep everything under version control. This is a list of utilities tha
 ## Configuration
 
 - [etckeeper](https://github.com/joeyh/etckeeper)
+- [NixOS](https://nixos.org/) is a completely declarative OS that uses `nix`, the purely functional package manager
 
 ## Terraform
 
