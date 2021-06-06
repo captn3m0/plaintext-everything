@@ -1,10 +1,10 @@
-# awesome-vcs [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# plaintext-everything
 
 ![version-control-everything](http://i.imgur.com/P0aDBIT.jpg)
 
-A curated list of awesome version control libraries.
+A curated list of awesome plain-text tools.
 
-I like to keep everything under version control. This is a list of utilities that allow you to do that. Tools that help you keep data in plain-text (and version control yourselves) are permitted.
+I like to keep everything under version control as plain-text. This is a list of utilities that allow you to do that.
 
 **Note**: \* denotes that the linked item is not a library or tool, but an article or blog post.
 
@@ -16,61 +16,33 @@ I like to keep everything under version control. This is a list of utilities tha
 
 ## Configuration
 
-- [etckeeper](https://github.com/joeyh/etckeeper)
+- [etckeeper](https://etckeeper.branchable.com/). The [Arch Wiki](https://wiki.archlinux.org/title/Etckeeper) has a nice guide on usage.
 - [NixOS](https://nixos.org/) is a completely declarative OS that uses `nix`, the purely functional package manager
+- [RANCID](https://shrubbery.net/rancid/) -  RANCID monitors a device's configuration, including software and hardware (cards, serial numbers, etc) and uses a version-control-system to maintain history of changes.
+- [Oxidised](https://github.com/ytti/oxidized) - Oxidized is a network device configuration backup tool. It's a RANCID replacement!
+- \*[Blog post about Oxidised](https://log.cyconet.org/2016/01/29/oxidized-silly-attempt-at-really-awesome-new-cisco-config-differ/)
+- In general, most [configuration management software](https://en.wikipedia.org/wiki/Comparison_of_open-source_configuration_management_software) will keep everything in plain-text.
 
 ## Terraform
 
-Terraform lets you manage a lot of things in version control, including:
-
-- Database Provisioning for [MySQL](https://www.terraform.io/docs/providers/mysql/index.html), [CouchDB](https://github.com/nicolai86/terraform-provider-couchdb), [InfluxDB](https://www.terraform.io/docs/providers/influxdb/index.html), and [PostgreSQL](https://www.terraform.io/docs/providers/postgresql/index.html).
-- DNS Setup for [PowerDNS](https://www.terraform.io/docs/providers/powerdns/index.html), [UltraDNS](https://www.terraform.io/docs/providers/ultradns/index.html), DNSimple, DNSMadeEasy, and DNS updates over RFC 2136.
-- Cloud Providers:
-    + AliCloud
-    + AWS
-    + Azure
-    + Google Cloud
-    + Oracle Public Cloud
-    + VMWare VSphere
-    + DigitalOcean
-    + Heroku
-    + OpenStack
-    + OVH
-    + Scaleway
-    + 1&1
-    + and many more... See https://www.terraform.io/docs/providers/type/cloud-index.html
-- InfraStructure
-    + Chef
-    + Consul
-    + Docker
-    + Kubernetes
-    + Nomad
-    + RabbitMQ
-    + Rancher
-    + Vault
-+ Version Control
-    * BitBucket
-    * GitHub
-    * GitLab
-
-And a lot more. A full list of providers is at <https://www.terraform.io/docs/providers/index.html>, and you can find community providers at <https://www.terraform.io/docs/providers/type/community-index.html>
+Terraform lets you manage a lot of things in plain-text, including Cloud Assets, Databases, Networking, configuration for various Web services, your CI/CD configuration, and even your Google Calendar. A full list of providers is [on the Terraform Registry](https://registry.terraform.io/browse/providers).
 
 ## Passwords
 
-- *[Question](http://stackoverflow.com/questions/559611/password-storage-in-source-control) on StackOverflow
-- *John Resig's [blog post](http://ejohn.org/blog/keeping-passwords-in-source-control/)
+- \*[Question](http://stackoverflow.com/questions/559611/password-storage-in-source-control) on StackOverflow
+- \*John Resig's [blog post](http://ejohn.org/blog/keeping-passwords-in-source-control/)
 - [pass](http://www.passwordstore.org/) - Standard unix password manager (encrypt, then commit).
 - [ansible-vault](https://docs.ansible.com/playbooks_vault.html) - Encrypted storage for ansible.
 - [sops](https://github.com/mozilla/sops) - Encrypts files for git.
 ## Dotfiles
 
-- *[dotfiles.github.io](https://dotfiles.github.io/) - List of various dotfile resources, curated by github
-- *[Arch Wiki Guide](https://wiki.archlinux.org/index.php/Dotfiles#Version_control) on using version control for dotfiles
+- \*[dotfiles.github.io](https://dotfiles.github.io/) - List of various dotfile resources, curated by github
+- \*[Arch Wiki Guide](https://wiki.archlinux.org/index.php/Dotfiles#Version_control) on using version control for dotfiles
 - [gnu stow](http://www.gnu.org/software/stow/)
 
 ## Editors
 
-- *[http://www.terminally-incoherent.com/blog/2012/03/12/putting-your-vim-files-under-version-control/](putting-your-vim-files-under-version-control)
+- \*[http://www.terminally-incoherent.com/blog/2012/03/12/putting-your-vim-files-under-version-control/](putting-your-vim-files-under-version-control)
 - [Editorconfig](http://editorconfig.org/) - Keep your coding styles in a .editorconfig file.
 
 ## Media
@@ -79,16 +51,16 @@ And a lot more. A full list of providers is at <https://www.terraform.io/docs/pr
 
 ## Encrypted Storage
 
-- *[HN Thread](https://news.ycombinator.com/item?id=8264496) for blackbox, with various alternatives suggested
+- \*[HN Thread](https://news.ycombinator.com/item?id=8264496) for blackbox, with various alternatives suggested
 - [git-crypt](https://www.agwa.name/projects/git-crypt/) - git-crypt enables transparent encryption and decryption of files in a git repository
-- *[Blog post](http://dsernst.com/2015/06/09/git-crypt-is-git--encryption/) on git-crypt
+- \*[Blog post](http://dsernst.com/2015/06/09/git-crypt-is-git--encryption/) on git-crypt
 - [transcrypt](https://github.com/elasticdog/transcrypt) - transparently encrypt files within a git repository
 - [blackbox](https://github.com/StackExchange/blackbox) - use decryption keys per user, meaning that there is no single shared password
 
 ## Designers
 
 - [pixelapse](https://www.pixelapse.com/) - Visual version control and collaboration workflow
-- *[Adobe Version Cue](http://sixrevisions.com/project-management/the-ultimate-guide-to-version-control-for-designers/) - Blog post explaining version control to designers
+- \*[Adobe Version Cue](http://sixrevisions.com/project-management/the-ultimate-guide-to-version-control-for-designers/) - Blog post explaining version control to designers
 - [kactus.io](https://kactus.io/) - Version control for designers (Sketch+Git for now)
 - [SnowFS](https://github.com/Snowtrack/SnowFS) - a fast, scalable version control file storage for graphic files. There is a [commercial offering](https://www.snowtrack.io/) as well.
 
@@ -99,7 +71,7 @@ And a lot more. A full list of providers is at <https://www.terraform.io/docs/pr
 
 ## Database
 
-- *Jeff Atwood's [blog post](http://blog.codinghorror.com/get-your-database-under-version-control/)
+- \*Jeff Atwood's [blog post](http://blog.codinghorror.com/get-your-database-under-version-control/)
 
 ### Database Schema
 
@@ -120,7 +92,7 @@ And a lot more. A full list of providers is at <https://www.terraform.io/docs/pr
 ## Todo
 
 - [todo.txt](http://todotxt.com/) - Pretty well known text file format with applications on many platforms.
-- *[Todo list in version control](http://urasaru.org/post/19414431348/getting-my-todo-list-under-version-control) - Based on using notational velocity and tracking it in git.
+- \*[Todo list in version control](http://urasaru.org/post/19414431348/getting-my-todo-list-under-version-control) - Based on using notational velocity and tracking it in git.
 
 ## Food
 
@@ -135,7 +107,7 @@ And a lot more. A full list of providers is at <https://www.terraform.io/docs/pr
 
 ## Finance
 
-- [plain text accounting](https://plaintextaccounting.org/) - umbrella site for the plain text accounting community.
+- \*[plain text accounting](https://plaintextaccounting.org/) - umbrella site for the plain text accounting community.
 - [ledger](https://www.ledger-cli.org/) - Ledger is a powerful, double-entry accounting system that is accessed from the UNIX command-line
 - [hledger](https://hledger.org/) - cross-platform accounting software for both power users and folks new to accounting.
 - [beancount](http://furius.ca/beancount) - A double-entry bookkeeping computer language that lets you define financial transaction records in a text file, read them in memory, generate a variety of reports from them, and provides a web interface.
