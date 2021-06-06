@@ -132,6 +132,13 @@ And a lot more. A full list of providers is at <https://www.terraform.io/docs/pr
 - [Kanga Modelling](https://kangamodeling.codeplex.com/) - UML diagram generator in plain text. Written in .NET
 - [yuml.me](http://yuml.me/) - Class UML diagrams, described in plain text, and easily embeddable.
 
+## Finance
+
+- [plain text accounting](https://plaintextaccounting.org/) - umbrella site for the plain text accounting community.
+- [ledger](https://www.ledger-cli.org/) - Ledger is a powerful, double-entry accounting system that is accessed from the UNIX command-line
+- [hledger](https://hledger.org/) - cross-platform accounting software for both power users and folks new to accounting.
+- [beancount](http://furius.ca/beancount) - A double-entry bookkeeping computer language that lets you define financial transaction records in a text file, read them in memory, generate a variety of reports from them, and provides a web interface.
+
 ## License
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
