@@ -4,7 +4,7 @@
 
 A curated list of awesome plain-text tools.
 
-I like to keep everything under version control as plain-text. This is a list of utilities that allow you to do that.
+I like to keep everything under version control as plain-text. This is a list of utilities that allow you to do that. Unmaintained tools are ~~striked out~~.
 
 **Note**: \* denotes that the linked item is not a library or tool, but an article or blog post.
 
@@ -102,8 +102,8 @@ Terraform lets you manage a lot of things in plain-text, including Cloud Assets,
 
 ## Food
 
-- [Fork the Cookbook](http://forkthecookbook.com/) - GitHub for recipes
-- [diy.soylent](https://diy.soylent.com/) - Soylent recipes can be tracked and include changelogs. They can also be forked.
+- ~~[Fork the Cookbook](http://forkthecookbook.com/) - GitHub for recipes~~
+- ~~[diy.soylent](https://diy.soylent.com/) - Soylent recipes can be tracked and include changelogs. They can also be forked.~~
 
 ## Diagrams & Flowcharts
 
@@ -132,7 +132,7 @@ Tools that let you manage finances, but keep your books in plain-text.
 - [hledger](https://hledger.org/) - cross-platform accounting software for both power users and folks new to accounting.
 - [beancount](http://furius.ca/beancount) - A double-entry bookkeeping computer language that lets you define financial transaction records in a text file, read them in memory, generate a variety of reports from them, and provides a web interface.
 - [transity](https://github.com/feramhq/transity#list-of-features--todos) - A transaction-first plain-text account tool that uses YAML to store your transactions.
-- [plainbudget](https://galvez.github.io/plainbudget/) - Minimalist plaintext budgeting tool.
+- ~~[plainbudget](https://galvez.github.io/plainbudget/) - Minimalist plaintext budgeting tool.~~
 
 ## Typesetting
 
@@ -151,7 +151,7 @@ Tools that let you create professional looking documents, but keep your books in
 ## Miscellaneous
 
 - [klog](https://github.com/jotaen/klog) - klog is a plain-text file format and a command line tool for time tracking.
-- [diffscuss](http://blog.hut8labs.com/introducing-diffscuss.html) was a plain-text code review system.
+- ~~[diffscuss](http://blog.hut8labs.com/introducing-diffscuss.html) - plain-text code review system.~~
 - \*[The Plain Person’s Guide to Plain Text Social Science](https://plain-text.co/) [[PDF Version](https://kieranhealy.org/files/papers/plain-person-text.pdf)].
 - \*[Improving Health Care with Plain-Text Medical Records and Git](https://www.gizra.com/content/plain-text-medical-records/)
 - [Poor Man's Issue Tracker](https://github.com/driusan/PoormanIssueTracker) - a loosely defined set of conventions for using the filesystem as an issue tracker.
