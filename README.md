@@ -104,6 +104,7 @@ Terraform lets you manage a lot of things in plain-text, including Cloud Assets,
 
 - ~~[Fork the Cookbook](http://forkthecookbook.com/) - GitHub for recipes~~
 - ~~[diy.soylent](https://diy.soylent.com/) - Soylent recipes can be tracked and include changelogs. They can also be forked.~~
+- [CookLang](https://cooklang.org/) - Recipe Markup Language
 
 ## Diagrams & Flowcharts
 
