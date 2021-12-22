@@ -79,6 +79,7 @@ Terraform lets you manage a lot of things in plain-text, including Cloud Assets,
 - [flyway](https://flywaydb.org/) - Version control for your database.
 - [MyBatis](http://www.mybatis.org/migrations/)
 - [Liquibase](https://www.liquibase.org/) - Source Control for your database
+- [Rumba RDBM](https://www.dbinvent.com/) - Database schema migration tool, plain-SQL, and declarative schema definition supported.
 
 ## Backups
 
