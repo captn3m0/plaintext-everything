@@ -1,6 +1,6 @@
 # plaintext-everything
 
-![version-control-everything](http://i.imgur.com/P0aDBIT.jpg)
+![version-control-everything](https://i.imgflip.com/69f2he.jpg)
 
 A curated list of awesome plain-text tools.
 
