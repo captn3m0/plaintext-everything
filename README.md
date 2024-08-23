@@ -4,7 +4,9 @@
 
 A curated list of awesome plain-text tools.
 
-I like to keep everything under version control as plain-text. This is a list of utilities that allow you to do that. Unmaintained tools are ~~striked out~~.
+I like to keep everything under version control as plain-text. This is a list
+of utilities that allow you to do that. Unmaintained tools are ~~striked
+out~~.
 
 **Note**: \* denotes that the linked item is not a library or tool, but an article or blog post.
 
@@ -91,10 +93,12 @@ Terraform lets you manage a lot of things in plain-text, including Cloud Assets,
 - [Penflip](https://www.penflip.com/) - GitHub for *collaborative* writers.
 - [GitBook](https://www.gitbook.com/) - Book publishing platform based on git and markdown.
 - [CriticMarkup](http://criticmarkup.com/) - a way for authors and editors to track changes to documents in plain text.
+- [TextBundle](http://textbundle.org/) - a file format that aims to provide a more seamless user experience when exchanging plain text files, like Markdown or Fountain, between sandboxed applications on MacOS/iOS.
 
 ### Journaling
 - [Journal.TXT](https://journaltxt.github.io/) - Single-Text File Journals.
 - [journal-cli](https://journalcli.me/) - Index Your Markdown-Based Journal With Yaml Front Matter!
+- \*[Plain text journaling](https://herman.bearblog.dev/plain-text-journaling/) - Experience report of using journal.txt
 
 ## Todo
 
@@ -117,6 +121,7 @@ Terraform lets you manage a lot of things in plain-text, including Cloud Assets,
 - [ditaa](http://ditaa.sourceforge.net/) - converts diagrams drawn using ascii art, into proper bitmap graphics.
 - [erd](https://github.com/BurntSushi/erd) - takes a plain text description of entities, their attributes and the relationships between entities and produces a visual diagram modeling the description using GraphViz and Dot.
 - [Svgbob Editor](https://ivanceras.github.io/svgbob-editor/) - Convert your ascii diagram scribbles into happy little SVG
+- [Penrose](https://penrose.cs.cmu.edu/) - create beautiful diagrams just by typing notation in plain text.
 
 ## Visualization
 - [Sparklines](https://en.wikipedia.org/wiki/Sparkline) are possible in plain-text (specifically these 8 characters: '▁▂▃▄▅▆▇█').
@@ -124,6 +129,14 @@ Terraform lets you manage a lot of things in plain-text, including Cloud Assets,
 
 ## Presentations
 
+- [Sent](https://tools.suckless.org/sent/) -  Simple plaintext presentation tool.
+- [Slide](http://trikita.co/slide/) - Make a presentation using plain-text on Android devices.
+
+
+## Email
+
+- \*[Use plain text email](https://useplaintext.email/) - A guide to setting up plain-text email across many email-clients.
+- \*[Plain text email](https://notes.ghed.in/posts/2024/plain-text-email/)
 
 ## Finance
 
@@ -131,9 +144,11 @@ Tools that let you manage finances, but keep your books in plain-text.
 
 - \*[plain text accounting](https://plaintextaccounting.org/) - umbrella site for the plain text accounting community.
 - [ledger](https://www.ledger-cli.org/) - Ledger is a powerful, double-entry accounting system that is accessed from the UNIX command-line
+- [ledger-go](https://howeyc.github.io/ledger/Introduction.html), a ledger implementation in go.
 - [hledger](https://hledger.org/) - cross-platform accounting software for both power users and folks new to accounting.
 - [beancount](http://furius.ca/beancount) - A double-entry bookkeeping computer language that lets you define financial transaction records in a text file, read them in memory, generate a variety of reports from them, and provides a web interface.
 - [transity](https://github.com/feramhq/transity#list-of-features--todos) - A transaction-first plain-text account tool that uses YAML to store your transactions.
+- [tackler](https://tackler.e257.fi/)
 - ~~[plainbudget](https://galvez.github.io/plainbudget/) - Minimalist plaintext budgeting tool.~~
 
 ## Typesetting
@@ -160,14 +175,25 @@ Tools that let you create professional looking documents, but keep your books in
 - [Poor Man's Issue Tracker](https://github.com/driusan/PoormanIssueTracker) - a loosely defined set of conventions for using the filesystem as an issue tracker.
 - [bug](https://github.com/driusan/bug) - bug writes code problem reports to plain text files as per the poor man's issue tracker conventions. Issues are stored as human readable plaintext files, they branch and merge along with the rest of your code, and you can resolve conflicts using your standard tools.
 
+## Knowledge
+
+- [ScrollSets](https://breckyunits.com/scrollsets.html) - All tabular knowledge can be stored in a single long plain text file. Used to build [PLDB](https://pldb.io/index.html)
+- [Webtag](https://webtag.io/) - A free text-based bookmarking website.
+- [zk](https://github.com/zk-org/zk) - a command-line tool helping you to maintain a plain text Zettelkasten or personal wiki.
+
 ## Specification
 
 - [OpenAPI Specification](https://swagger.io/specification/) - a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection.
 - \*[OpenAPI.Tools](https://openapi.tools/) - List of various tools that use the OpenAPI Specification including Convertors, Validators, Documentation, Mock Servers, SDK Generators, Text Editors and more.
+- [OpenAPI Arazzo Specification](https://github.com/OAI/Arazzo-Specification/) - express sequences of calls and articulate the dependencies between them to achieve a particular outcome, or set of outcomes, when dealing with API descriptions .
 - [MSON](https://github.com/apiaryio/mson) - A description format for describing data structures in common markup formats such as JSON, XML or YAML.
+- [Bru Markup Language](https://www.brulang.org) -  A simple markup language with JSON-like semantics, useful for representing API requests in a human-readable format.
 
 ## Related
-- See <https://plaintextproject.online/>.
+- [The Plain Text Project](https://plaintextproject.online) - no longer updated.
+- [The Plain Person’s Guide to Plain Text Social Science](https://plain-text.co/)
+- [Modern Plain Text Computing](https://mptc.io/) - a course, taught as part of Fall 2024 seminar SOCIOL 703 at Duke University by Kieran Healy.
+- [Write plain text files](https://sive.rs/plaintext)
 
 ## License
 
