@@ -82,6 +82,7 @@ Terraform lets you manage a lot of things in plain-text, including Cloud Assets,
 - [MyBatis](http://www.mybatis.org/migrations/)
 - [Liquibase](https://www.liquibase.org/) - Source Control for your database
 - [Rumba RDBM](https://www.dbinvent.com/) - Database schema migration tool, plain-SQL, and declarative schema definition supported.
+- <https://xosh.org/text-to-diagram/> lists a few more.
 
 ## Backups
 
@@ -122,6 +123,7 @@ Terraform lets you manage a lot of things in plain-text, including Cloud Assets,
 - [erd](https://github.com/BurntSushi/erd) - takes a plain text description of entities, their attributes and the relationships between entities and produces a visual diagram modeling the description using GraphViz and Dot.
 - [Svgbob Editor](https://ivanceras.github.io/svgbob-editor/) - Convert your ascii diagram scribbles into happy little SVG
 - [Penrose](https://penrose.cs.cmu.edu/) - create beautiful diagrams just by typing notation in plain text.
+- <https://xosh.org/text-to-diagram/> lists a lot more.
 
 ## Visualization
 - [Sparklines](https://en.wikipedia.org/wiki/Sparkline) are possible in plain-text (specifically these 8 characters: '▁▂▃▄▅▆▇█').
@@ -131,7 +133,7 @@ Terraform lets you manage a lot of things in plain-text, including Cloud Assets,
 
 - [Sent](https://tools.suckless.org/sent/) -  Simple plaintext presentation tool.
 - [Slide](http://trikita.co/slide/) - Make a presentation using plain-text on Android devices.
-
+- [Present](https://github.com/vinayak-mehta/present) -  A terminal-based presentation tool with colors and effects. 
 
 ## Email
 
