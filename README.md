@@ -100,6 +100,7 @@ Terraform lets you manage a lot of things in plain-text, including Cloud Assets,
 - [Journal.TXT](https://journaltxt.github.io/) - Single-Text File Journals.
 - [journal-cli](https://journalcli.me/) - Index Your Markdown-Based Journal With Yaml Front Matter!
 - \*[Plain text journaling](https://herman.bearblog.dev/plain-text-journaling/) - Experience report of using journal.txt
+- [duras](https://github.com/sduras/duras) - Plain text daily notes, one file per day, with search, tagging, and optional GPG encryption.
 
 ## Todo
 
